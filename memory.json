@@ -1,14 +1,9 @@
 {
-  "sessions": [
-    {
-      "player": "Tester",
-      "time": 5,
-      "ai_reply": "[\n  {\n    \"action\": \"ChangeEnvironment\",\n    \"parameters\": {\n      \"partName\": \"Sky\",\n      \"property\": \"Ambient\",\n      \"newValue\": \"(50, 0, 0)\"\n    },\n    \"description\": \"Sky's ambient color changes to a blood red shade, casting an eerie glow over the entire world.\"\n  },\n  {\n    \"action\": \"CreateObjects\",\n    \"parameters\": {\n      \"objectType\": \"Part\",\n      \"position\": \"(50, 100, 50)\",\n      \"shape\": \"Sphere\",\n      \"properties\": {\n        \"Size\": \"5, 5, 5\",\n        \"BrickColor\": \"Really black\",\n        \"Material\": \"Neon\",\n        \"Transparency\": 0.5\n      }\n    },\n    \"description\": \"A large, semi-transparent black sphere materializes at a distance, appearing like an ominous dark sun.\"\n  },\n  {\n    \"action\": \"PlaySound\",\n    \"parameters\": {\n      \"soundId\": \"rbxassetid:// eerie_sound\",\n      \"volume\": 0.8,\n      \"pitch\": 0.5,\n      \"target\": \"Tester\"\n    },\n    \"description\": \"A long, creepy and drawn-out sound is emitted, permeating the world and chilling Tester to their digital core.\"\n  }\n]"
-    },
-    {
-      "player": "Tester",
-      "time": 5,
-      "ai_reply": "{\n  \"actions\": [\n    {\n    \"action\": \"Spawn_Shapes\",\n    \"details\": {\n      \"shape\": \"Spike\",\n      \"location\": \"Around_Tester\",\n      \"speed\": \"Slow\",\n      \"color\": \"Blood_Red\",\n      \"effect\": \"Pulsating\"\n      }\n    },\n    {\n    \"action\": \"Change_Parts\",\n    \"details\": {\n      \"part\": \"Sky\",\n      \"attribute\": \"Color\",\n      \"value\": \"Dark_Stormy\",\n      \"speed\": \"Slow\"\n      }\n    },\n    {\n    \"action\": \"Emit_Sound\",\n    \"details\": {\n      \"sound\": \"Low_Rumbling\",\n      \"distance\": \"Everywhere\",\n      \"loudness\": \"Low\",\n      \"speed\": \"Slow\"\n      }\n    }\n  ]\n}"
-    }
-  ]
+  "sessions": [],
+  "world_changes": {
+    "structures": [],
+    "environment": []
+  },
+  "player_data": {},
+  "corruption_stage": 1
 }
