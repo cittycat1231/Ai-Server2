@@ -7,7 +7,7 @@ load_dotenv()
 
 
 app = Flask(__name__)
-openai.api_key = os.getenv("OPENAI_API_KEY") or "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"  # Replace or use .env
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 MEMORY_FILE = "memory.json"
 
